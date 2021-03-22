@@ -1,0 +1,16 @@
+{
+  "Home": {
+    "Title": "Modèle de démarrage Bootstrap",
+    "Description": "Utilisez ce document comme moyen de démarrer rapidement n’importe quel nouveau projet. Tout ce que vous obtenez est ce texte et un document HTML essentiellement nu-osseux."
+  },
+  "Others":{
+    "Title": "Modèle de démarrage Bootstrap",
+    "Heading1":"Primaire: Veuillez lire attentivement les instructions avant de continuer.",
+    "Heading2":"Secondaire: Ceci est en vedette a été supprimé de la dernière version.",
+    "Heading3":"Succès: Votre message a été envoyé avec succès.",
+    "Heading4":"Info: Vous devez accepter les termes et conditions pour compléter le processus d'inscription.",
+    "Heading5":"Avertissement: Il y a eu un problème avec votre connexion réseau.",
+    "Heading6":"Danger: une erreur s'est produite lors de l'envoi de vos données.",
+    "Heading7":"Muet: Ce paragraphe de texte est grisé."
+  }
+}

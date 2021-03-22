@@ -1,0 +1,16 @@
+{
+  "Home": {
+    "Title": "Bootstrap starter template",
+    "Description": "Use this document as a way to quickly start any new project.All you get is this text and a mostly barebones HTML document."
+  },
+  "Others":{
+    "Title": "Bootstrap starter template",
+    "Heading1":"Primary: Please read the instructions carefully before proceeding.",
+    "Heading2":"Secondary: This is featured has been removed from the latest version.",
+    "Heading3":"Success: Your message has been sent successfully.",
+    "Heading4":"Info: You must agree with the terms and conditions to complete the sign up process.",
+    "Heading5":"Warning: There was a problem with your network connection.",
+    "Heading6":"Danger: An error has been occurred while submitting your data.",
+    "Heading7":"Muted: This paragraph of text is grayed out."
+  }
+}

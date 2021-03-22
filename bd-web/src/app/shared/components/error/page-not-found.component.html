@@ -1,0 +1,19 @@
+<!-- <h1>This is not the page you were looking for!</h1> -->
+<p>A typeahead example that uses a formatter function for string results</p>
+
+<label for="typeahead-format">Search for a state:</label>
+<input id="typeahead-format" type="text" class="form-control" [(ngModel)]="model" [ngbTypeahead]="search" />
+<hr>
+<pre>Model: {{ model | json }}</pre>
+
+<div class="starter-template">
+  <h1>{{ 'Others.Title' | translate }}</h1>
+  <p class="text-primary">{{ 'Others.Heading1' | translate }}</p>
+  <p class="text-secondary">{{ 'Others.Heading2' | translate }}</p>
+  <p class="text-success">{{ 'Others.Heading3' | translate }}</p>
+  <p class="text-info">{{ 'Others.Heading4' | translate }}</p>
+  <p class="text-warning">{{ 'Others.Heading5' | translate }}</p>
+  <p class="text-danger">{{ 'Others.Heading6' | translate }}</p>
+  <p class="text-muted">{{ 'Others.Heading7' | translate }}</p>
+</div>
+

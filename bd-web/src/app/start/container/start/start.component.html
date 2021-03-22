@@ -1,0 +1,14 @@
+<h2>Process Patch</h2>
+<form [formGroup]="processForm" (ngSubmit)="onSubmit()">
+    <div class="form-group">
+        <label for="numberOfBatches">Number of batches</label>
+        <input type="text" formControlName="numberOfBatches" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.numberOfBatches.errors }" />
+    </div>
+    <div class="form-group">
+      <label for="numberToProcess">Number to process</label>
+      <input type="text" formControlName="numberToProcess" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.numberToProcess.errors }" />
+  </div>
+  <div class="container">
+    <button type="button" class="cancelbtn" (click)="onSubmit()">Submit</button>
+  </div>
+</form>
