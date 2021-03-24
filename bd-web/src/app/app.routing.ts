@@ -4,7 +4,6 @@ import { PageNotFoundComponent, } from './shared/components';
 export const appRoutes: Routes = [
   { path: '', pathMatch: 'full', redirectTo: '/start' },
   { path: 'start', loadChildren: () => import('@app/start/start.module').then(m => m.StartModule)},
-  { path: 'events', loadChildren: () => import('@app/globoticket-events/event.module').then(m => m.EventModule)},
   { path: 'notfound', component: PageNotFoundComponent },
   { path: '**', component: PageNotFoundComponent }
 ];

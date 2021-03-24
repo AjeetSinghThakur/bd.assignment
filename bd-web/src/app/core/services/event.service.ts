@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { IProcessVm } from '@app/models';
+import { IProcessVm } from '@app/models/process';
 import { HttpWrapperService } from '@app/shared/services';
 import { environment } from '@env/environment';
 import { Observable } from 'rxjs';

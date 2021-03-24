@@ -13,7 +13,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CoreModule } from './core/core.module';
 import { SharedModule } from './shared/shared.module';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
-import { ProductData } from './products/product-data';
 import {TranslateModule } from '@ngx-translate/core';
 import { translateLoaderProvider } from './shared/translations';
 

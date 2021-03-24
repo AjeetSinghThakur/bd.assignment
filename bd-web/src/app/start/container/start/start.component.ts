@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { EventService } from '@app/core/services/event.service';
-import { IProcessVm } from '@app/models';
+import { IProcessVm } from '@app/models/process';
 import { Subject } from 'rxjs';
 import { first, takeUntil } from 'rxjs/operators';
 
